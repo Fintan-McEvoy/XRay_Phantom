@@ -1,0 +1,9 @@
+time==unknown
+csv==1.0
+pandas==0.23.0
+random==unknown
+numpy==1.14.3
+matplotlib.pyplot==3.0.2
+PIL==5.4.1
+IPython.display==6.4.0
+watermark==2.0.2
