@@ -1,7 +1,7 @@
-pandas==0.23.0
-numpy==1.14.3
-matplotlib==3.0.2
-pillow==6.0
+pandas
+numpy>=1.14.3
+matplotlib>=3.0.2
+pillow>=6.0
 IPython
-watermark==2.0.2
+watermark>=2.0.2
 
