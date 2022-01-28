@@ -22,13 +22,13 @@ def display_images():
 
     liver_mean = image_liver.mean()
     liver_std = image_liver.std()
-    liver_snr = 10*np.log10(liver_mean/liver_std) # in db
+    liver_snr = np.log10(liver_mean/liver_std) # in db
     fat_mean = image_fat.mean()
     fat_std = image_fat.std()
-    fat_snr = 10*np.log10(fat_mean/fat_std) # in db
+    fat_snr = np.log10(fat_mean/fat_std) # in db
     air_mean = image_air.mean()
     air_std = image_air.std()
-    air_snr = 10*np.log10(air_mean/air_std) # in db
+    air_snr = np.log10(air_mean/air_std) # in db
 
 
     print("Liver; Mean pixel value,",liver_mean)

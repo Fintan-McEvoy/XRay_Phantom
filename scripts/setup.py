@@ -2,8 +2,10 @@ import os
 cwd = os.getcwd()
 
 exec(open(cwd+'/scripts/import_modules.py').read())
+exec(open(cwd+'/scripts/setParams.py').read())
 exec(open(cwd+'/scripts/readData.py').read())
 exec(open(cwd+'/scripts/spectra.py').read())
+exec(open(cwd+'/scripts/plot_spectra.py').read())
 exec(open(cwd+'/scripts/spectral_limits.py').read())
 exec(open(cwd+'/scripts/monte_carlo_sample_batch.py').read())
 exec(open(cwd+'/scripts/get_spectra_dependent_mu.py').read())

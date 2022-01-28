@@ -4,7 +4,7 @@ import os
 cwd = os.getcwd()
 
 def hello_world():
-    print('Hello, world')
-    print(cwd)
+    print('Completed')
+    #print(cwd)
 
 hello_world()

@@ -1,4 +1,5 @@
 def phantom(mAs, KVp):
+    setParams()
     if mAs <1:
         raise ValueError("mAs should be an integer between 1 and 10 inclusive")
     #if mAs >10:
