@@ -1,5 +1,6 @@
 # XRay_Phantom
 Phantom for seeing the effects of tube kVp and mAs on image contrast and image noise
 
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/Fintan-McEvoy/XRay_Phantom/main?labpath=XRayPhantom-V6.ipynb
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Fintan-McEvoy/XRay_Phantom/main?labpath=XRayPhantom-V6.ipynb)
+
